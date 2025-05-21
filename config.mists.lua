@@ -322,12 +322,65 @@ config.MapIDs = {
     [799] = "Firelands",
     [824] = "DragonSoul",
 
+    -- Mists of Pandaria Raids
+    [896] = "Mogu'shan Vaults",
+    [897] = "Heart of Fear",
+    [930] = "Terrace of Endless Spring",
+    [953] = "Throne of Thunder",
+    [1009] = "Siege of Orgrimmar",
+
     [1701] = "PvP",
 }
 
 config.defaultDebuffHighlights = {
     ["PvP"] = {
         [33786] = { 33786, 3, "Cyclone" },
+    },
+
+    ["Mogu'shan Vaults"] = {
+        -- The Stone Guard
+        [125206] = { 125206, 1, "Rend Flesh, The Stone Guard" },
+        [130395] = { 130395, 4, "Jasper Chains, The Stone Guard" },
+
+        -- Feng the Accursed
+        [131788] = { 131788, 1, "Lightning Lash, Feng the Accursed" },
+        [131790] = { 131790, 1, "Arcane Shock, Feng the Accursed" },
+        [116942] = { 116942, 1, "Flaming Spear, Feng the Accursed" },
+        [131792] = { 131792, 1, "Shadowburn, Feng the Accursed" },
+        [116784] = { 116784, 1, "Wildfire Spark, Feng the Accursed" },
+        [116417] = { 116417, 1, "Arcane Resonance, Feng the Accursed" },
+
+        -- Gara'jal Spiritbinder
+        [122151] = { 122151, 2, "Vodoo Doll, Gara'jal Spiritbinder" },
+        
+        -- The Spirit Kings
+        [118048] = { 118048, 1, "Pillage, The Spirit Kings" },
+        [118163] = { 118163, 1, "Robbed Blind, The Spirit Kings" },
+        [118135] = { 118135, 1, "Rain of Arrows, The Spirit Kings" },
+        [117708] = { 117708, 1, "Maddening Shout, The Spirit Kings" },
+        [118303] = { 118303, 4, "Fixate, The Spirit Kings" },
+
+        -- Elegon
+        [117949] = { 117949, 1, "Closed Circuit, Elegon" },
+        [132222] = { 132222, 1, "Destabilizing Energies, Elegon" },
+        [132226] = { 132226, 2, "Destabilized, Elegon" },
+        --
+        [117878] = { 117878, 2, "Overcharged, Elegon" },
+        
+        -- Will of Emperor
+        [116525] = { 116525, 1, "Focused Assault, Will of Emperor" },
+        [116778] = { 116778, 1, "Focused Defense, Will of Emperor" },
+        [116829] = { 116829, 1, "Focused Energy, Will of Emperor" },
+
+    },
+    
+    ["Heart of Fear"] = {
+    },
+    ["Terrace of Endless Spring"] = {
+    },
+    ["Throne of Thunder"] = {
+    },
+    ["Siege of Orgrimmar"] = {
     },
 
 

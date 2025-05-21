@@ -317,6 +317,8 @@ config.MapIDs = {
     [799] = "Firelands",
     [824] = "DragonSoul",
 
+    [824] = "DragonSoul",
+
     [1701] = "PvP",
 }
 
